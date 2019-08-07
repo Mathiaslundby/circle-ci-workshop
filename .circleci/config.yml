@@ -9,4 +9,4 @@ jobs:
           name: The First Step
           command: gradle test
       - store_test_results:
-          path: /tmp/test-reports
+          path: build/test-results
